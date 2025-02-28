@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import './global.css'
 
 import { Home } from './home';
-import { PainelAtleta } from './components/painelAtleta';
+import { PainelAtleta } from './components/PainelAtleta';
 
 
 function App() {
