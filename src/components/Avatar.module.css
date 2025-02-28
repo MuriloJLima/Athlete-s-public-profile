@@ -1,0 +1,20 @@
+.imageContainer{
+    width: calc(9rem + 12px);
+    height: calc(9rem + 12px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border: 2px solid var(--brown-500);
+      border-radius: 8px;
+  }
+  
+  .avatar{
+    width: calc(9rem + 12px);
+    height: calc(9rem + 12px);
+      object-fit: cover;
+      border-radius: 8px;
+      padding: 0.3rem;
+  }
+  
+  

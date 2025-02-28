@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.painel {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.4rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Seção superior */
+.topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nome {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.matricula {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Seção de informações */
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.infoGroup {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: #444;
+}
+
+@media (max-width: 768px) {
+  .infoGroup {
+    flex-direction: column; /* Uma única coluna em telas menores */
+  }
+}
+
+/* Seção de graduação e competições */
+.gradSection {
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.competitions {
+  border-top: 1px solid #e9ecef;
+  padding-top: 1rem;
+  margin-top: 10px;
+}
+
+.competitions p {
+  border: 1px solid var(--brown-500);
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+label{
+   color: #777;
+}
